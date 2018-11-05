@@ -1,0 +1,11 @@
+   A               B               C               D
+D <- A		C <- B		A <- C		B <- D
+C <- B		A <- C		B <- D		D <- A
+A <- C		B <- D		D <- A		C <- B
+B <- D		D <- A		C <- B		A <- C
+
+   A		   B		   C		   D
+A >- C
+B >- D
+C >- B
+D >- A
